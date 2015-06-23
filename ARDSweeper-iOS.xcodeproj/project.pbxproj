@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		945471AF1B39A457006728FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945471AE1B39A457006728FF /* AppDelegate.swift */; };
+		945471B11B39A457006728FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945471B01B39A457006728FF /* ViewController.swift */; };
+		945471B41B39A457006728FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945471B21B39A457006728FF /* Main.storyboard */; };
+		945471B61B39A457006728FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945471B51B39A457006728FF /* Images.xcassets */; };
+		945471B91B39A457006728FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945471B71B39A457006728FF /* LaunchScreen.xib */; };
+		945471C51B39A457006728FF /* ARDSweeper_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945471C41B39A457006728FF /* ARDSweeper_iOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		945471BF1B39A457006728FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 945471A11B39A457006728FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 945471A81B39A457006728FF;
+			remoteInfo = "ARDSweeper-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		945471A91B39A457006728FF /* ARDSweeper-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARDSweeper-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945471AD1B39A457006728FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945471AE1B39A457006728FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		945471B01B39A457006728FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		945471B31B39A457006728FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		945471B51B39A457006728FF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		945471B81B39A457006728FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		945471BE1B39A457006728FF /* ARDSweeper-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARDSweeper-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945471C31B39A457006728FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945471C41B39A457006728FF /* ARDSweeper_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARDSweeper_iOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945471A61B39A457006728FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945471BB1B39A457006728FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		945471A01B39A457006728FF = {
+			isa = PBXGroup;
+			children = (
+				945471AB1B39A457006728FF /* ARDSweeper-iOS */,
+				945471C11B39A457006728FF /* ARDSweeper-iOSTests */,
+				945471AA1B39A457006728FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		945471AA1B39A457006728FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945471A91B39A457006728FF /* ARDSweeper-iOS.app */,
+				945471BE1B39A457006728FF /* ARDSweeper-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945471AB1B39A457006728FF /* ARDSweeper-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				945471AE1B39A457006728FF /* AppDelegate.swift */,
+				945471B01B39A457006728FF /* ViewController.swift */,
+				945471B21B39A457006728FF /* Main.storyboard */,
+				945471B51B39A457006728FF /* Images.xcassets */,
+				945471B71B39A457006728FF /* LaunchScreen.xib */,
+				945471AC1B39A457006728FF /* Supporting Files */,
+			);
+			path = "ARDSweeper-iOS";
+			sourceTree = "<group>";
+		};
+		945471AC1B39A457006728FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				945471AD1B39A457006728FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		945471C11B39A457006728FF /* ARDSweeper-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				945471C41B39A457006728FF /* ARDSweeper_iOSTests.swift */,
+				945471C21B39A457006728FF /* Supporting Files */,
+			);
+			path = "ARDSweeper-iOSTests";
+			sourceTree = "<group>";
+		};
+		945471C21B39A457006728FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				945471C31B39A457006728FF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945471A81B39A457006728FF /* ARDSweeper-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945471C81B39A457006728FF /* Build configuration list for PBXNativeTarget "ARDSweeper-iOS" */;
+			buildPhases = (
+				945471A51B39A457006728FF /* Sources */,
+				945471A61B39A457006728FF /* Frameworks */,
+				945471A71B39A457006728FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARDSweeper-iOS";
+			productName = "ARDSweeper-iOS";
+			productReference = 945471A91B39A457006728FF /* ARDSweeper-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		945471BD1B39A457006728FF /* ARDSweeper-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945471CB1B39A457006728FF /* Build configuration list for PBXNativeTarget "ARDSweeper-iOSTests" */;
+			buildPhases = (
+				945471BA1B39A457006728FF /* Sources */,
+				945471BB1B39A457006728FF /* Frameworks */,
+				945471BC1B39A457006728FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				945471C01B39A457006728FF /* PBXTargetDependency */,
+			);
+			name = "ARDSweeper-iOSTests";
+			productName = "ARDSweeper-iOSTests";
+			productReference = 945471BE1B39A457006728FF /* ARDSweeper-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945471A11B39A457006728FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Fliizweb.fr;
+				TargetAttributes = {
+					945471A81B39A457006728FF = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					945471BD1B39A457006728FF = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 945471A81B39A457006728FF;
+					};
+				};
+			};
+			buildConfigurationList = 945471A41B39A457006728FF /* Build configuration list for PBXProject "ARDSweeper-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 945471A01B39A457006728FF;
+			productRefGroup = 945471AA1B39A457006728FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945471A81B39A457006728FF /* ARDSweeper-iOS */,
+				945471BD1B39A457006728FF /* ARDSweeper-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945471A71B39A457006728FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945471B41B39A457006728FF /* Main.storyboard in Resources */,
+				945471B91B39A457006728FF /* LaunchScreen.xib in Resources */,
+				945471B61B39A457006728FF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945471BC1B39A457006728FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945471A51B39A457006728FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945471B11B39A457006728FF /* ViewController.swift in Sources */,
+				945471AF1B39A457006728FF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945471BA1B39A457006728FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945471C51B39A457006728FF /* ARDSweeper_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		945471C01B39A457006728FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 945471A81B39A457006728FF /* ARDSweeper-iOS */;
+			targetProxy = 945471BF1B39A457006728FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		945471B21B39A457006728FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945471B31B39A457006728FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		945471B71B39A457006728FF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945471B81B39A457006728FF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		945471C61B39A457006728FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		945471C71B39A457006728FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		945471C91B39A457006728FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ARDSweeper-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		945471CA1B39A457006728FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ARDSweeper-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		945471CC1B39A457006728FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARDSweeper-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDSweeper-iOS.app/ARDSweeper-iOS";
+			};
+			name = Debug;
+		};
+		945471CD1B39A457006728FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ARDSweeper-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDSweeper-iOS.app/ARDSweeper-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945471A41B39A457006728FF /* Build configuration list for PBXProject "ARDSweeper-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945471C61B39A457006728FF /* Debug */,
+				945471C71B39A457006728FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945471C81B39A457006728FF /* Build configuration list for PBXNativeTarget "ARDSweeper-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945471C91B39A457006728FF /* Debug */,
+				945471CA1B39A457006728FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		945471CB1B39A457006728FF /* Build configuration list for PBXNativeTarget "ARDSweeper-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945471CC1B39A457006728FF /* Debug */,
+				945471CD1B39A457006728FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945471A11B39A457006728FF /* Project object */;
+}
